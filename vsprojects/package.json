@@ -6,7 +6,7 @@
 	"win32-x64-vc140-debug": [
 		["x64/Debug/*.lib", "lib"],
 		["x64/Debug/*.pdb", "lib"],
-		["x64/Debug/*.exe", "bin"],
+		["x64/Debug/*.exe", "bin"]
 	],
 	"win32-x64-vc140-release": [
 		["x64/Release/*.lib", "lib"],
