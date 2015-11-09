@@ -1,6 +1,6 @@
 {
 	"noarch" :[
-		["../src/google/**/*.h", "include/google"],
+		["../src/google/**/*.h", "include/google"]
 	],
 	"win32-x64-vc140-debug": [
 		["x64/Debug/*.lib", "lib"],
