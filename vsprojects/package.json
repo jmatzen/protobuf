@@ -1,6 +1,6 @@
 {
 	"noarch" :[
-		["../src/google/*/*.h", "include/google"]
+		["../src/google/*/*.h", "include/google"],
 		["../src/google/protobuf/*/*.h", "include/google/protobuf"]
 	],
 	"win32-x64-vc140-debug": [
