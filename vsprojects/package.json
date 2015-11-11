@@ -1,16 +1,10 @@
 {
-	"noarch" :[
-		["../src/google/*/*.h", "include/google"],
-		["../src/google/protobuf/*/*.h", "include/google/protobuf"]
-	],
-	"win32-x64-vc140-debug": [
-		["x64/Debug/*.lib", "lib"],
-		["x64/Debug/*.pdb", "lib"],
-		["x64/Debug/*.exe", "bin"]
-	],
-	"win32-x64-vc140-release": [
-		["x64/Release/*.lib", "lib"],
-		["x64/Release/*.pdb", "lib"],
+	"win32-x64-vc140": [
+		["../src/google/**", "include/google"],
+		["x64/Debug/*.lib", "lib/debug"],
+		["x64/Debug/*.pdb", "lib/debug"],
+		["x64/Release/*.lib", "lib/release"],
+		["x64/Release/*.pdb", "lib/release"],
 		["x64/Release/*.exe", "bin"]
 	]
 }
